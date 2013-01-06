@@ -1,0 +1,129 @@
+@font-face {
+    font-family: 'ModernPictogramsNormal';
+    src: url('font/modernpics-webfont.eot');
+    src: url('font/modernpics-webfont.eot?#iefix') format('embedded-opentype'),
+        url('font/modernpics-webfont.woff') format('woff'),
+        url('font/modernpics-webfont.ttf') format('truetype'),
+        url('font/modernpics-webfont.svg#ModernPictogramsNormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+    width: 400px;
+    margin: 100px auto;
+    background: #DDD;
+}
+/* Facebook Logo*/
+.button {
+    width: 55px;
+    height: 55px;
+    line-height: 63px;
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+    font-family: helvetica, arial;  
+    font-weight: bold;  
+    display: block;
+    text-align: center;
+
+    /* Background Credients */
+    background: #014464;
+    background-image: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0.4, #2E6C9E),
+        color-stop(0.51, #1A5399),
+        color-stop(0.6, #2774B8)
+        );
+    /* Border Radius */
+    -moz-border-radius:10px;
+    -moz-border-radius:10px;
+    border-radius:10px;
+    border: 1px solid #368DBE;
+    border-top: 1px solid #e3d6df;
+    border-left: 1px solid #e3d6df;
+
+    /* Text Shadow */
+    text-shadow: 0px -1px 1px #111;
+
+    /* Box shadow */
+    -moz-box-shadow: 0 1px 3px black;
+    -webkit-box-shadow: 0 1px 3px black;  
+    box-shadow: 0 3px 8px black; 
+
+}
+/*     WHILE BEING CLICKED   */
+.button:active {  
+    -moz-box-shadow: 0 2px 6px black;  
+    -webkit-box-shadow: 0 2px 6px black;  
+}  
+/* FONT GLYPH (MOSTLY FOR FUN) */  
+.button:after {  
+    font-family: ModernPictogramsNormal;  
+    content: 'F';  
+    color: #FFF;  
+    font-size: 60px;  
+    float: left;  
+    margin-left: 15px;  
+    margin-right: -10px;  
+    text-shadow: 1 1px 1 #4190AF;  
+}  
+
+/*Twitter Logo*/
+.button1 {
+    width: 55px;
+    height: 55px;
+    line-height: 63px;
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+    font-family: helvetica, arial;  
+    font-weight: bold;  
+    display: block;
+    text-align: center;
+
+    /* Background Credients */
+    background: #3fa0ba;
+    background-image: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0.33, #3FA0BB),
+        color-stop(0.5, #10738F),
+        color-stop(0.84, #3BA1BD)
+        );
+    /* Border Radius */
+    -moz-border-radius:10px;
+    -moz-border-radius:10px;
+    border-radius:10px;
+    border: 1px solid #368DBE;
+    border-top: 1px solid #e3d6df;
+    border-left: 1px solid #e3d6df;
+
+    /* Text Shadow */
+    text-shadow: 0px -1px 1px #333;
+
+    /* Box shadow */
+    -moz-box-shadow: 0 1px 3px black;
+    -webkit-box-shadow: 0 1px 3px black;  
+    box-shadow: 0 3px 8px black; 
+
+}
+
+.button1:before {  
+    font-family: ModernPictogramsNormal;  
+    content: 'T';  
+    color: #FFF;  
+    font-size: 64px;  
+    float: left;  
+    margin-left: 10px;  
+    margin-right: -10px;  
+    text-shadow: 1 1px 1 #4190AF;  
+}
+.button1:active {  
+    -moz-box-shadow: 0 2px 6px black;  
+    -webkit-box-shadow: 0 2px 6px black;  
+}
